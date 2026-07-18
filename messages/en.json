@@ -1,0 +1,44 @@
+{
+  "Metadata": {
+    "title": "Philo Atlas — An interactive history of philosophy",
+    "description": "Travel through time and place to meet the thinkers who shaped philosophy."
+  },
+  "Header": {
+    "brand": "Philo Atlas",
+    "tagline": "Ideas have coordinates",
+    "language": "Language",
+    "english": "English",
+    "turkish": "Türkçe"
+  },
+  "Atlas": {
+    "mapLabel": "World map of philosophers",
+    "visibleCount": "{count, plural, =0 {No philosophers} =1 {# philosopher} other {# philosophers}} alive in {year}",
+    "openDetails": "Open details for {name}"
+  },
+  "Timeline": {
+    "title": "Travel through time",
+    "year": "Selected year",
+    "bce": "{year} BCE",
+    "ce": "{year} CE"
+  },
+  "Detail": {
+    "close": "Close details",
+    "lived": "Lived",
+    "age": "{count} years",
+    "bornIn": "Born in",
+    "school": "School",
+    "influencedBy": "Influenced by",
+    "sources": "Sources",
+    "openSource": "Open {title} in a new tab"
+  },
+  "States": {
+    "loading": "Charting the world…",
+    "mapLoading": "Loading the map…",
+    "errorTitle": "The atlas could not be loaded",
+    "errorBody": "Something interrupted the journey. Please try again.",
+    "retry": "Try again",
+    "emptyTitle": "No recorded philosophers are alive in this year",
+    "emptyBody": "Move the timeline to discover another era.",
+    "notFound": "This page is off the map"
+  }
+}

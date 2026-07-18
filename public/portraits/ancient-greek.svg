@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title description">
+  <title id="title">Ancient Greek philosopher portrait</title>
+  <desc id="description">A stylized marble bust against an Aegean landscape</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#5d91a4"/><stop offset="1" stop-color="#d9bd79"/></linearGradient>
+    <linearGradient id="robe" x2="1" y2="1"><stop stop-color="#f2eadb"/><stop offset="1" stop-color="#b7aa96"/></linearGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#sky)"/>
+  <path d="M0 222 115 116l74 77 104-105 117 128 90-91 140 115v80H0z" fill="#496453" opacity=".58"/>
+  <path d="M0 253c130-30 227 28 352 0s196-12 288 5v62H0z" fill="#326d7c" opacity=".72"/>
+  <circle cx="475" cy="126" r="69" fill="#ded5c4"/>
+  <path d="M388 320c7-86 40-128 87-128s80 42 87 128" fill="url(#robe)"/>
+  <path d="M407 104c15-73 119-73 136 0-40-24-96-23-136 0M436 155c27 25 51 25 78 0-4 63-74 66-78 0" fill="#c8bead"/>
+  <text x="52" y="118" fill="#fff" opacity=".28" font-family="Georgia,serif" font-size="96">Φ</text>
+</svg>
