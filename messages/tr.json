@@ -1,0 +1,44 @@
+{
+  "Metadata": {
+    "title": "Philo Atlas — Etkileşimli felsefe tarihi",
+    "description": "Felsefeyi şekillendiren düşünürlerle tanışmak için zaman ve mekânda yolculuk yapın."
+  },
+  "Header": {
+    "brand": "Philo Atlas",
+    "tagline": "Fikirlerin koordinatları vardır",
+    "language": "Dil",
+    "english": "English",
+    "turkish": "Türkçe"
+  },
+  "Atlas": {
+    "mapLabel": "Filozofların dünya haritası",
+    "visibleCount": "{year} yılında yaşayan {count} filozof",
+    "openDetails": "{name} ayrıntılarını aç"
+  },
+  "Timeline": {
+    "title": "Zamanda yolculuk",
+    "year": "Seçili yıl",
+    "bce": "MÖ {year}",
+    "ce": "MS {year}"
+  },
+  "Detail": {
+    "close": "Ayrıntıları kapat",
+    "lived": "Yaşamı",
+    "age": "{count} yıl",
+    "bornIn": "Doğum yeri",
+    "school": "Okul",
+    "influencedBy": "Etkilendiği kişiler",
+    "sources": "Kaynaklar",
+    "openSource": "{title} kaynağını yeni sekmede aç"
+  },
+  "States": {
+    "loading": "Dünya haritalanıyor…",
+    "mapLoading": "Harita yükleniyor…",
+    "errorTitle": "Atlas yüklenemedi",
+    "errorBody": "Yolculuk sırasında bir sorun oluştu. Lütfen yeniden deneyin.",
+    "retry": "Yeniden dene",
+    "emptyTitle": "Bu yılda yaşayan kayıtlı bir filozof yok",
+    "emptyBody": "Başka bir dönemi keşfetmek için zaman çizelgesini hareket ettirin.",
+    "notFound": "Bu sayfa haritanın dışında"
+  }
+}
