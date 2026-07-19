@@ -31,11 +31,21 @@ The interface is organized around four connected views:
 
 The supplied examples illustrate the English profile view, nearby search, journey overlay, scrollable influence lists, and Turkish localization.
 
+#### English interface preview
+
+![Philo Atlas English profile view](docs/screenshots/01-profile-en.png)
+
+The map remains the primary workspace: markers show philosophers alive in the selected year, the right panel holds the selected profile, and the bottom timeline controls the historical slice.
+
 ### Turkish language support
+
+![Philo Atlas Turkish profile view](docs/screenshots/05-profile-tr.png)
+
+The Turkish preview shows the same data model and interactions with localized headings such as `ÖZET`, `DOĞUM YERİ`, `FİLOZOF` and `ZAMANDA YOLCULUK`.
 
 Use the language switch in the upper-right corner or open [`/tr`](http://localhost:3000/tr) directly. The Turkish route translates interface labels, timeline era names (`MÖ` / `MS`), philosopher names where a Turkish label exists, place names, summaries imported from Turkish MediaWiki pages, school labels and nearby-search results. Factual years remain numeric BCE/CE values internally, so switching language does not change historical filtering.
 
-The attached design examples should be committed under `docs/screenshots/` with these names:
+The original interface examples are committed under `docs/screenshots/`:
 
 ```text
 01-profile-en.png
@@ -46,6 +56,14 @@ The attached design examples should be committed under `docs/screenshots/` with 
 ```
 
 Capture them from `npm run dev`; do not commit `.next` cache images.
+
+Additional examples:
+
+![Nearby philosopher search](docs/screenshots/02-nearby-search.png)
+
+![Life journey overlay](docs/screenshots/03-life-journey.png)
+
+![Influence lists and sources](docs/screenshots/04-influences.png)
 
 ## Requirements
 
