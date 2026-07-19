@@ -10,9 +10,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "data:fetch": "tsx scripts/fetch-wikidata.ts",
+    "data:fetch-summaries": "tsx scripts/fetch-wikipedia-summaries.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.99.1",
     "leaflet": "^1.9.4",
     "next": "^16.2.10",
     "next-intl": "^4.13.2",
@@ -29,6 +32,7 @@
     "eslint-config-next": "^16.2.10",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.1",
     "typescript": "^5.9.2"
   },
   "overrides": {

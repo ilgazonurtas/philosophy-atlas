@@ -2,7 +2,8 @@
 
 import dynamic from "next/dynamic";
 import {useTranslations} from "next-intl";
-import type {Philosopher} from "@/types/philosopher";
+import type {JourneyOverlayEvent, MapLocation} from "@/types/map";
+import type {PhilosopherViewModel} from "@/types/philosopher";
 
 const MapCanvas = dynamic(() => import("./map-canvas").then((module) => module.MapCanvas), {
   ssr: false,
@@ -23,10 +24,31 @@ export function MapStage({
   philosophers,
   selectedId,
   onSelect,
+  journeyEvents,
+  activeJourneyEvent,
+  onSelectJourneyEvent,
+  nearbyLocation,
+  nearbyRadius,
 }: {
-  philosophers: Philosopher[];
+  philosophers: PhilosopherViewModel[];
   selectedId: string | null;
-  onSelect: (philosopher: Philosopher) => void;
+  onSelect: (philosopher: PhilosopherViewModel) => void;
+  journeyEvents: JourneyOverlayEvent[];
+  activeJourneyEvent: number | null;
+  onSelectJourneyEvent: (index: number) => void;
+  nearbyLocation: MapLocation | null;
+  nearbyRadius: number;
 }) {
-  return <MapCanvas philosophers={philosophers} selectedId={selectedId} onSelect={onSelect} />;
+  return (
+    <MapCanvas
+      philosophers={philosophers}
+      selectedId={selectedId}
+      onSelect={onSelect}
+      journeyEvents={journeyEvents}
+      activeJourneyEvent={activeJourneyEvent}
+      onSelectJourneyEvent={onSelectJourneyEvent}
+      nearbyLocation={nearbyLocation}
+      nearbyRadius={nearbyRadius}
+    />
+  );
 }
